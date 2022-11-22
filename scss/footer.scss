@@ -32,88 +32,121 @@
 
 // フッター
 .footer {
+    width: 100%;
     background-color: #292929;
     color: #fff;
-  }
-  
-.footer__inner {
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 20px 0;
-    @media screen and (min-width:980px) {
-        width: 85%;   
-        text-align: left;
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
+    padding: 30px 0 35px;
+    @media screen and (min-width:960px) {
+        padding: 60px 0 30px;
     }
-}
-.footer-logo {
-    width: 35%;
-    margin: 0 auto;
-    @media screen and (min-width:980px) {
-        width: 30%;
-        margin: 0;
+    &__inner {
+        margin: 0 auto;
+        text-align: center;
+        @media screen and (min-width:960px) {
+            width: 85%;   
+            text-align: left;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+        }
     }
-}
-.company-information {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin: 0 auto;
-    @media screen and (min-width:980px) {
-        margin: 0;
+    &__information {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0 auto 25px;
+        @media screen and (min-width:960px) {
+            margin: 0 0 30px 0;
+        }
+        & p {
+            margin: 0;
+        }
+        &--logo {
+            width: 35%;
+            margin: 0 auto;
+            margin-bottom: 15px;
+            @media screen and (min-width:960px) {
+                width: 30%;
+                margin: 0 0 30px 0;
+            }
+        }
+        &--company{
+            font-size: 1.4rem;
+        }
+        &--tel {
+            font-family: 'Quicksand', sans-serif;
+            font-size: 2rem;
+        }
     }
-}
-.footer-menu-list {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    @media screen and (min-width:980px) {
+    &__menu {
+        grid-column: 2/3;
+        grid-row: 1/2;
+        @media screen and (min-width:960px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin: 0 0 30px 0;
+        }
+    }
+    &__nav {
+        list-style: none;
         display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+
+        &--accordion {
+            padding-left: 10px;
+        }
+
+        &-item {
+            font-size: 1.4rem;
+            color: #fff;
+            padding: 15px;
+            border-bottom: #555555 1px solid;
+            text-align: left;
+            width: 100%;
+          @media screen and (min-width: 960px) {
+              padding: 5px 10px;
+              width: auto;
+              border:none
+          }
+          &--accordion {
+            font-size: 1.3rem;
+          }
+        }
     }
 }
 .privacy-policy {
     grid-column: 2/3;
     grid-row: 2/3;
-    @media screen and (min-width:980px) {
+    font-size: 1.2rem;
+    margin: 10px 0 25px 0;
+    display: inline-block;
+    @media screen and (min-width:960px) {
         text-align: end;
+        margin: 0;
     }
 }
 .copy-right {
     display: block;
     grid-column: 1/2;
     grid-row: 2/3;
+    @media screen and (min-width:960px) {
+    }
 }
 
-.footer__navgroup {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-  }
-
-  .footer__navitem{
-      font-size: 16px;
-      color: #fff;
-      padding: 15px;
-      border-bottom: #555555 1px solid;
-      text-align: left;
-      width: 100%;
-    @media screen and (min-width: 980px) {
-        padding: 0 10px;
-        width: auto;
-        border:none
-    }
-  }
-  .js-accordion__item {
+.js-accordion__item {
     opacity: 0;
     height: 0;
     overflow: hidden;
     transition: all 0.5s linear;
-  }
-  .js-accordion__item.is-open {
+    @media screen and (min-width:960px) {
+        opacity: 1;
+        height: auto;
+        overflow: visible;
+    }
+}
+.js-accordion__item.is-open {
     opacity: .7;
     height: auto;
-  }
+}
