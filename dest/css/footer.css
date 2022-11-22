@@ -1,0 +1,142 @@
+.recruit {
+  background-image: url(../images/top/recruit_sp.jpg);
+}
+@media screen and (min-width: 960px) {
+  .recruit {
+    background-image: url(../images/top/recruit_pc.jpg);
+  }
+}
+.recruit__inner {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  color: #fff;
+}
+@media screen and (min-width: 960px) {
+  .recruit__inner {
+    width: 85%;
+  }
+}
+.recruit__lead {
+  margin: 40px 0 30px;
+}
+@media screen and (min-width: 960px) {
+  .recruit__lead {
+    margin: 50px 0 60px;
+  }
+}
+
+.news__sub-heading--recruit {
+  color: #fff;
+}
+
+.section__button--recruit {
+  color: #fff;
+  border: 2px #fff solid;
+}
+
+.footer {
+  background-color: #292929;
+  color: #fff;
+}
+
+.footer__inner {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 0;
+}
+@media screen and (min-width: 980px) {
+  .footer__inner {
+    width: 85%;
+    text-align: left;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+  }
+}
+
+.footer-logo {
+  width: 35%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 980px) {
+  .footer-logo {
+    width: 30%;
+    margin: 0;
+  }
+}
+
+.company-information {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin: 0 auto;
+}
+@media screen and (min-width: 980px) {
+  .company-information {
+    margin: 0;
+  }
+}
+
+.footer-menu-list {
+  grid-column: 2/3;
+  grid-row: 1/2;
+}
+@media screen and (min-width: 980px) {
+  .footer-menu-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
+
+.privacy-policy {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+@media screen and (min-width: 980px) {
+  .privacy-policy {
+    text-align: end;
+  }
+}
+
+.copy-right {
+  display: block;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.footer__navgroup {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.footer__navitem {
+  font-size: 16px;
+  color: #fff;
+  padding: 15px;
+  border-bottom: #555555 1px solid;
+  text-align: left;
+  width: 100%;
+}
+@media screen and (min-width: 980px) {
+  .footer__navitem {
+    padding: 0 10px;
+    width: auto;
+    border: none;
+  }
+}
+
+.js-accordion__item {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.5s linear;
+}
+
+.js-accordion__item.is-open {
+  opacity: 0.7;
+  height: auto;
+}
