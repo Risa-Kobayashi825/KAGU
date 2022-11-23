@@ -99,6 +99,7 @@
         }
 
         &-item {
+            position: relative;
             font-size: 1.4rem;
             color: #fff;
             padding: 15px;
@@ -135,6 +136,27 @@
     }
 }
 
+.js-accordion__arrow {
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+    line-height: 1;
+    width: 12px;
+    height: 12px;
+    border: 1px solid currentColor;
+    border-left: 0;
+    border-bottom: 0;
+    box-sizing: border-box;
+    transform: translateY(-25%) rotate(135deg);
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+  .js-accordion__arrow.is-open {
+    transform: translateY(25%) rotate(315deg);
+  }
+
+
 .js-accordion__item {
     opacity: 0;
     height: 0;
@@ -147,6 +169,8 @@
     }
 }
 .js-accordion__item.is-open {
-    opacity: .7;
+    opacity: 1;
     height: auto;
+    overflow: visible;
 }
+
