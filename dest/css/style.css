@@ -14,12 +14,12 @@ body {
   color: #333;
 }
 
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 560px) {
   body {
     font-size: 1.5rem;
   }
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 560px) {
   .sp_only {
     display: none;
   }
@@ -28,7 +28,7 @@ body {
 .pc_only {
   display: none;
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 560px) {
   .pc_only {
     display: inline;
   }
@@ -65,7 +65,7 @@ body {
   font-size: 6.5vw;
   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.9);
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .keyv__heading {
     font-size: 2.6vw;
     top: 200px;
@@ -76,7 +76,7 @@ body {
   width: 100%;
   padding: 40px 0;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .section {
     padding: 80px 0;
   }
@@ -86,7 +86,7 @@ body {
   font-size: 2rem;
   margin: 0 0 10px 0;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .section__heading {
     font-size: 2.4rem;
     margin: 0 0 15px 0;
@@ -109,7 +109,7 @@ body {
   font-size: 1.4rem;
   padding: 15px;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .section__button {
     font-size: 1.5rem;
     padding: 15px;
@@ -190,7 +190,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .furniture__inner {
     width: 85%;
   }
@@ -201,7 +201,7 @@ body {
   padding: 0;
   list-style: none;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .main-search {
     margin: 50px 0;
   }
@@ -210,7 +210,7 @@ body {
   display: flex;
   flex-direction: column;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .main-search__item {
     flex-direction: row;
     justify-content: space-between;
@@ -219,13 +219,13 @@ body {
 .main-search__item:nth-child(2) {
   margin-top: 60px;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .main-search__item:nth-child(2) {
     margin-top: 50px;
     flex-direction: row-reverse;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .main-search__img {
     width: 50%;
   }
@@ -237,7 +237,7 @@ body {
   text-align: left;
   margin-top: 30px;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .main-search__container {
     width: 45%;
     margin-top: 0;
@@ -248,7 +248,7 @@ body {
   font-size: 2rem;
   margin: 0;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .main-search__container--title {
     font-size: 2.4rem;
   }
@@ -256,6 +256,11 @@ body {
 .main-search__container--lead {
   margin-top: 30px;
   margin-bottom: 0;
+}
+@media screen and (min-width: 560px) {
+  .main-search__container--lead {
+    margin-top: 10px;
+  }
 }
 @media screen and (min-width: 960px) {
   .main-search__container--lead {
@@ -266,9 +271,15 @@ body {
   text-align: center;
   margin-top: 60px;
 }
+@media screen and (min-width: 560px) {
+  .main-search__container--button {
+    margin-top: 10px;
+  }
+}
 @media screen and (min-width: 960px) {
   .main-search__container--button {
     text-align: left;
+    margin-top: 60px;
   }
 }
 
@@ -277,16 +288,26 @@ body {
   list-style: none;
   margin-bottom: 0;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .search {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (min-width: 960px) {
+  .search {
     margin-top: 80px;
   }
 }
 .search__item {
   margin-top: 60px;
+}
+@media screen and (min-width: 560px) {
+  .search__item {
+    width: 45%;
+  }
 }
 @media screen and (min-width: 960px) {
   .search__item {
@@ -333,7 +354,7 @@ body {
   margin: 0 auto;
   text-align: center;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .others__inner {
     width: 85%;
   }
@@ -346,14 +367,14 @@ body {
 .others-list__item:nth-child(1) {
   margin-bottom: 60px;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .others-list__item {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .others-list__img {
     width: 25%;
   }
@@ -362,7 +383,7 @@ body {
   margin-top: 30px;
   text-align: left;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 560px) {
   .others-list__container {
     margin: 0;
     width: 70%;
