@@ -89,6 +89,8 @@
 .footer__information--tel {
   font-family: "Quicksand", sans-serif;
   font-size: 2rem;
+  text-decoration: none;
+  color: #fff;
 }
 .footer__menu {
   grid-column: 2/3;

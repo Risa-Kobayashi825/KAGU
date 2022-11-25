@@ -46,7 +46,7 @@ body {
   width: 100%;
   margin-top: 60px;
 }
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 1000px) {
   .keyv {
     margin-top: 80px;
   }
@@ -330,7 +330,12 @@ body {
 .search__container--title {
   font-weight: bold;
   font-size: 2rem;
-  margin: 30px 0 0 0;
+  margin: 0;
+}
+@media screen and (min-width: 560px) {
+  .search__container--title {
+    margin: 30px 0 0 0;
+  }
 }
 .search__container--lead {
   margin-top: 30px;
