@@ -116,6 +116,10 @@
           &--accordion {
             font-size: 1.3rem;
           }
+          > a {
+            text-decoration: none;
+            color: #fff;
+          }
         }
     }
 }

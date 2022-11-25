@@ -133,6 +133,10 @@
 .footer__nav-item--accordion {
   font-size: 1.3rem;
 }
+.footer__nav-item > a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .privacy-policy {
   grid-column: 2/3;
