@@ -33,13 +33,13 @@ gulp.task("default", () => {
 
 
 // // const gulp = require('gulp');
-const imagemin = require('gulp-imagemin');
+// const imagemin = require('gulp-imagemin');
  
-exports.default = () => (
-	gulp.src('images/**/*')
-		.pipe(imagemin())
-		.pipe(gulp.dest('dest/images/'))
-);
+// exports.default = () => (
+// 	gulp.src('images/**/*')
+// 		.pipe(imagemin())
+// 		.pipe(gulp.dest('dest/images/'))
+// );
 
 
 

@@ -59,98 +59,98 @@
         </div>
     </div>
 </header>
-        <section class="section-main-contact">
-            <div class="main-contact__inner">
+        <section class="keyv">
+            <div class="keyv__inner">
                 <picture>
-                    <source media="(min-width: 980px)" srcset="images/keyv-contact.jpg">
+                    <source media="(min-width: 560px)" srcset="images/keyv-contact.jpg">
                     <img class="u-img" src="images/keyv-contact_sp.jpg" alt="お問い合せ">
                 </picture>
-                <div class="section-contact__heading">
-                    <h1 class="section-contact__heading--main">お問い合せ</h1>
-                    <p class="section-contact__heading--sub">CONTACT</p>
+                <div class="keyv-contact__heading">
+                    <h1 class="keyv-contact__mmain-heading">お問い合せ</h1>
+                    <p class="keyv-contact__sub-heading">CONTACT</p>
                 </div>
             </div>
         </section>
-        <section class="section-contact">
+        <section class="section contact">
             <div class="contact__inner">
-                <h2 class="news__heading">電話でのお問い合わせ</h2>
-                <p class="news__sub-heading">BY PHONE</p>
-                <p class="section-desc">弊社に関するご質問がございましたら、お気軽にご相談下さい。</p>
-                <div class="contactーaddress">
-                    <img src="images/tel.png" alt="tel" class="phone-img">
-                    <div class="contact-detail">
-                        <a href="" class="phone-number">052-000-0000</a>
-                        <span class="contact-time">受付時間 10:00-17:00</span>
+                <h2 class="section__heading">電話でのお問い合わせ</h2>
+                <p class="section__sub-heading">BY PHONE</p>
+                <p class="contact__lead">弊社に関するご質問がございましたら、お気軽にご相談下さい。</p>
+                <div class="contact__info">
+                    <img src="images/tel.png" alt="tel" class="contact__info__img">
+                    <div class="contact__info__detail">
+                        <a href="" class="contact__info__number">052-000-0000</a>
+                        <span class="contact__info__time">受付時間 10:00-17:00</span>
                     </div>
                 </div>
-                <h2 class="news__heading">メールでのお問い合わせ</h2>
-                <p class="news__sub-heading">BY E-MAIL</p>
-                <p class="section-desc">家具のご購入、採用について等お気軽にご相談下さい。</p>
-                <p>下記フォームに必要事項をご入力の上、お問合せをお願いいたします。 </p>
-                <form class="contact-form" action="">
-                    <dl class="contact-form__area">
-                        <div class="contact-item">
-                            <dt class="contact-item__title">
+                <h2 class="section__heading section__heading--contact">メールでのお問い合わせ</h2>
+                <p class="section__sub-heading">BY E-MAIL</p>
+                <p class="contact__lead">家具のご購入、採用について等お気軽にご相談下さい。<br>
+                    下記フォームに必要事項をご入力の上、お問合せをお願いいたします。 </p>
+                <form action="">
+                    <dl class="contact-form">
+                        <div class="contact-form__item">
+                            <dt class="contact-form__caption">
                                 <label>氏名（全角）</label>
-                                <span class="news-list__item--category">必須</span>
+                                <span class="contact-form__required">必須</span>
                             </dt>
-                            <div class="contact-item__field">
-                                <dd class="contact-item__field--content">
-                                    <label for="last-name">性</label>
-                                    <input type="text" id="last-name" placeholder="家具" class="contact-item__input">
+                            <div class="contact-form__input">
+                                <dd class="contact-form__name">
+                                    <label for="last-name" class="contact-form__input__caption">性</label>
+                                    <input type="text" id="last-name" placeholder="家具" class="contact-form__input__field">
                                 </dd>
-                                <dd class="contact-item__field--content">
-                                    <label for="first-name">名</label>
-                                    <input type="text" id="first-name" placeholder="太郎" class="contact-item__input">
+                                <dd class="contact-form__name">
+                                    <label for="first-name" class="contact-form__input__caption">名</label>
+                                    <input type="text" id="first-name" placeholder="太郎" class="contact-form__input__field">
                                 </dd>
                             </div>
                         </div>
-                        <div class="contact-item">
-                            <dt class="contact-item__title">
+                        <div class="contact-form__item">
+                            <dt class="contact-form__caption">
                                 <label>フリガナ（全角）</label>
-                                <span class="news-list__item--category">必須</span>
+                                <span class="contact-form__required">必須</span>
                             </dt>
-                            <div class="contact-item__field">
-                                <dd class="contact-item__field--content">
-                                    <label for="last-name2">セイ</label>
-                                    <input type="text" id="last-name2" placeholder="カグ" class="contact-item__input">
+                            <div class="contact-form__input">
+                                <dd class="contact-form__name">
+                                    <label for="last-name-kana" class="contact-form__input__caption">セイ</label>
+                                    <input type="text" id="last-name-kana" placeholder="カグ" class="contact-form__input__field">
                                 </dd>
-                                <dd class="contact-item__field--content">
-                                    <label for="first-name2">メイ</label>
-                                    <input type="text" id="first-name2" placeholder="タロウ" class="contact-item__input">
+                                <dd class="contact-form__name">
+                                    <label for="first-name-kana" class="contact-form__input__caption">メイ</label>
+                                    <input type="text" id="first-name-kana" placeholder="タロウ" class="contact-form__input__field">
                                 </dd>
                             </div>
                         </div>
-                        <div class="contact-item">                  
-                            <dt class="contact-item__title">
+                        <div class="contact-form__item">                  
+                            <dt class="contact-form__caption">
                                 <label for="e-mail">メールアドレス</label>
-                                <span class="news-list__item--category">必須</span>
+                                <span class="contact-form__required">必須</span>
                             </dt>
-                            <dd class="contact-item__email">
-                                <input type="email" id="e-mail" class="contact-item__input contact-item__input--email">
+                            <dd class="contact-form__input__w100">
+                                <input type="email" id="e-mail" class="contact-form__input__field contact-form__input__field--email">
                             </dd>
                         </div>
-                        <div class="contact-item">                  
-                            <dt class="contact-item__title">
+                        <div class="contact-form__item">                  
+                            <dt class="contact-form__caption">
                                 <label for="e-mail-confirm">メールアドレス（確認用）</label>
-                                <span class="news-list__item--category">必須</span>
+                                <span class="contact-form__required">必須</span>
                             </dt>
-                            <dd class="contact-item__email">
-                                <input type="email" id="e-mail-confirm" class="contact-item__input contact-item__input--email">
+                            <dd class="contact-form__input__w100">
+                                <input type="email" id="e-mail-confirm" class="contact-form__input__field contact-form__input__field--email">
                             </dd>
                         </div>
-                        <div class="contact-item">   
-                            <dt class="contact-item__title">
+                        <div class="contact-form__item">   
+                            <dt class="contact-form__caption">
                                 <label for="detail">問い合わせ内容</label>
-                                <span class="news-list__item--category">必須</span>
+                                <span class="contact-form__required">必須</span>
                             </dt>
-                            <dd class="contact-item__email">
-                                <textarea id="detail" cols="30" rows="10" class="contact-item__input contact-item__input--inquiry"></textarea>
+                            <dd class="contact-form__input__w100">
+                                <textarea id="detail" cols="30" rows="10" class="contact-form__input__field contact-form__input__field--inquiry"></textarea>
                             </dd>
                         </div>
                     </dl>
                 </form>
-                <button type="submit" class="contact__button">
+                <button type="submit" class="section__button">
                     送信する
                 </button>
             </div>
