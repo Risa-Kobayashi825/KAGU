@@ -171,6 +171,16 @@
     width: auto;
   }
 }
+.contact-form__input__field:focus {
+  outline: none;
+}
+.contact-form__input__field--email, .contact-form__input__field--inquiry {
+  width: 100%;
+  resize: none;
+}
+.contact-form__input__field--email:focus, .contact-form__input__field--inquiry:focus {
+  outline: none;
+}
 .contact-form__input__w100 {
   margin: 0;
 }
@@ -193,16 +203,4 @@
     padding-right: 30px;
     width: 40%;
   }
-}
-
-.contact-form__input__field:focus,
-.contact-form__input__field--email:focus,
-.contact-form__input__field--inquiry:focus {
-  outline: none;
-}
-
-.contact-form__input__field--email,
-.contact-form__input__field--inquiry {
-  width: 100%;
-  resize: none;
 }

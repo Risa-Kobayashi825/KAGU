@@ -151,6 +151,17 @@
             margin-left: 0px;
             width: auto;
             }
+            &:focus {
+                outline: none;
+            }
+            &--email,
+            &--inquiry {
+                width: 100%;
+                resize: none;
+                &:focus {
+                    outline: none;
+                }
+            }
         }
 
         &__w100 {
@@ -175,13 +186,3 @@
     }
 }
 
-.contact-form__input__field:focus,
-.contact-form__input__field--email:focus,
-.contact-form__input__field--inquiry:focus {
-    outline: none;
-}
-.contact-form__input__field--email,
-.contact-form__input__field--inquiry {
-    width: 100%;
-    resize: none;
-}
