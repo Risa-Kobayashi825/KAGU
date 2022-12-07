@@ -92,6 +92,14 @@ body {
     margin: 0 0 15px 0;
   }
 }
+.section__heading--contact {
+  margin-top: 50px;
+}
+@media screen and (min-width: 960px) {
+  .section__heading--contact {
+    margin-top: 100px;
+  }
+}
 .section__sub-heading {
   color: #aa8f7b;
   font-family: "Quicksand", sans-serif;
@@ -114,6 +122,9 @@ body {
     font-size: 1.5rem;
     padding: 15px;
   }
+}
+.section__button--contact {
+  background: #fff;
 }
 .section__icon {
   vertical-align: -5px;

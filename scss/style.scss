@@ -139,6 +139,12 @@ body {
     font-size: 2.4rem;
     margin: 0 0 15px 0;
     }
+    &--contact {
+      margin-top: 50px;
+      @media screen and (min-width:960px) {
+          margin-top: 100px;
+      }
+    }
   }
   &__sub-heading {
     color: #aa8f7b;
@@ -162,6 +168,9 @@ body {
       font-size: 1.5rem;
       padding: 15px;
     }
+  &--contact {
+    background: #fff;
+  }
   }
   &__icon {
     vertical-align: -5px;

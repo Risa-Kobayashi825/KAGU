@@ -96,12 +96,7 @@
         }
     }
 }
-.section__heading--contact {
-    margin-top: 50px;
-    @media screen and (min-width:960px) {
-        margin-top: 100px;
-    }
-}
+
 .contact-form {
     text-align: left;
     &__item {
@@ -190,17 +185,3 @@
     width: 100%;
     resize: none;
 }
-.contact__button {
-    display: inline-block;
-    font-weight: bold;
-    color: #333;
-    background: #fff;
-    border: #333 2px solid;
-    border-radius: 30px;
-    text-decoration: none;
-    padding: 10px 50px;
-    cursor: pointer;
-    @media screen and (min-width:960px) {
-      padding: 15px 55px;
-    }
-  }
