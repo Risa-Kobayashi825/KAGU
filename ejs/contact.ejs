@@ -26,8 +26,17 @@
         <section class="keyv">
             <div class="keyv__inner">
                 <picture>
-                    <source media="(min-width: 560px)" srcset="images/keyv-contact.jpg">
-                    <img class="u-img" src="images/keyv-contact_sp.jpg" alt="お問い合せ">
+                    <source media="(min-width: 560px)"
+                            srcset="images/contact/keyv-contact.jpg"
+                            width="1500"
+                            height="360"
+                    >
+                    <img class="u-img"
+                         src="images/contact/keyv-contact_sp.jpg"
+                         decoding="async"
+                         width="375"
+                         height="240"
+                    >
                 </picture>
                 <div class="keyv-contact__heading">
                     <h1 class="keyv-contact__mmain-heading">お問い合せ</h1>
@@ -41,7 +50,12 @@
                 <p class="section__sub-heading">BY PHONE</p>
                 <p class="contact__lead">弊社に関するご質問がございましたら、お気軽にご相談下さい。</p>
                 <div class="contact__info">
-                    <img src="images/tel.png" alt="tel" class="contact__info__img">
+                    <img src="images/contact/tel.png"
+                         class="contact__info__img"
+                         loading="lazy"
+                         width="58"
+                         height="59"
+                    >
                     <div class="contact__info__detail">
                         <a href="" class="contact__info__number">052-000-0000</a>
                         <span class="contact__info__time">受付時間 10:00-17:00</span>
@@ -119,7 +133,6 @@
                 </button>
             </div>
         </section>
-
         <%- include("common/_footer") %>
         <script src="js/app.js"></script>
     </body>
